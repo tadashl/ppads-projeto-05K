@@ -1,63 +1,54 @@
-# Documento de Visão do Projeto "NOME DO PROJETO"
+# Documento de Visão do Projeto "Controle de Vacina Digital"
 
-Este documento apresenta uma solução de software para o projeto *"NOME DO PROJETO"*, solicitado pelo cliente *"NOME DO CLIENTE"*, 
+Este documento apresenta uma solução de software para o projeto Controle de Vacina Digital, solicitado pelo cliente Thomas Sassaki, 
 apresentando os problemas a serem solucionados, as necessidades dos principais envolvidos, o alcance do projeto e as funcionalidades 
 esperadas do sistema.
 
 ## Objetivos
 
-* Objetivo 1
-* Objetivo 2
-* Objetivo 3
-* etc.
+-Deixar o usuário sempre informado das suas vacinas.
+-Facilitar o acesso do histórico do paciente.
+-Fácil localização de postos saúde próximos 
+-facil acesso com senhas antecipadas com fluxo de horários
 
 ## Problema
 
-* Descrição do problema: ___
-* Quem é afetado pelo problema: ____
-* Impacto no negócio: ___
-* Benefícios de uma boa solução: ___
+- Descrição do problema: Sem controle e disponibilidade de vacinas.
+- Quem é afetado pelo problema: todos os usuários sofrem impacto porém pessoas de localidade concentradas sofrem mais.
+- Impacto no negócio: perder controle de estoque,disperdícios.
+- Benefícios de uma boa solução: uma boa base de dados.
 
 ## Definições, abreviações e outros termos do domínio do problema
 
-* Definição 1
-* Definição 2
-* Definição 3
-* etc.
+-jargões hospitalares: http://www.ebserh.gov.br/documents/147715/393018/PrincipaisTermosdeEnfermagem.pdf
 
 ## Integração com outros sistemas
 
-* Sistema externo 1
-* Sistema externo 2
-* Sistema externo 3
-* etc.
+- Google maps location
+- integração com base de dados dos postos de saúde e os hospitais.
+
  
 ## Interessados
 
-* Tipo de interessado 1
-* Tipo de interessado 2
-* Tipo de interessado 3
-* etc.
+-Hospitais
+-Postos de saúde
+-Empresas
+-Academia
 
 ## Usuários
 
-* Tipo de usuário 1
-* Tipo de usuário 2
-* Tipo de usuário 3
-* etc.
+- Livre
 
 ## Funcionalidades do produto
 
-* Funcionalidade 1
-* Funcionalidade 2
-* etc.
+- Facilidade em consulta e acesso com controle de vacina, disponibilidade e localização.
 
 ## Restrições do projeto
 
-* Restrição 1
-* Restrição 2
-* Restrição 3
-* etc.
+- versão ultrapassada Android
+- versão ultrapassada IOS
+- localidades sem rede
+
 
 ## Protótipos de tela
 
