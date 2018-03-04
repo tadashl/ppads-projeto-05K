@@ -6,33 +6,113 @@
 
 ![Exemplo de diagrama dos casos de uso](exemplo-casos-uso.png)
 
-## 2. Especificação dos casos de uso
 
-**Instruções do professor**: Para cada caso de uso, criar as tabelas com a especificação do caso de uso. Siga o exemplo dado abaixo:
+Especificação dos Casos de Uso.
 
-### 2.1. Caso de uso **REGISTRAR CHAMADO**
+Paciente – Realiza o seu cadastro no sistema controle de vacino. Ele pode altera excluir dados e consultar as vacinas. 
 
-| Campo          | Informação        |
-|---|---|
-| Identificador: | UC01              |
-| Nome:          | Registrar chamado |
-| Atores:        | Membro do Help Desk |
-| Sumário:       | Registra um novo chamado no sistema |
+Identificador	1.0
+Nome	Paciente
+Atores	Paciente
+Sumário	Paciente – Realiza o seu cadastro no sistema controle de vacino
+Complexidade	Alta
+Regras de Negócio	O paciente tem como base o controle das suas vacinas. 
+Pré-condições	Consultar vacina 
+Pós-condição	Manter a controle dos pacientes
+Pontos de Inclusão	Abrir a sessão do sistema.
+Pontos de Extensão	Realizar o fechamento do sistema 
 
-| Fluxo Principal |
-|---|
-| 1) O membro do help desk seleciona a opção **Registro de novo chamado** e informa o CPF do cliente. |
-| 2) O sistema recupera as informações do cliente pelo CPF.                   |
-| 3) O sistema apresenta as informações do cliente e o formulário para o registro do chamado. |
-| 4) O membro do help desk informa o tipo de chamado e preenche o campo descrição com o relato do cliente. |
-| 5) O sistema registra o chamado e informa que a operação foi bem-sucedida. |
 
-| Fluxo Alternativo (2a): O sistema não encontra as informações do cliente pelo CPF. |
-|---|
-| 1) O sistema informa que não conseguiu recuperar as informações pelo CPF e apresenta a opção de cadastrar o cliente. |
-| 2) O membro do help desk preenche o formulário de cadastro do cliente. |
-| 3) O sistema registra os dados do cliente. |
-| 4) Volta ao passo (3) do fluxo principal. |
+Registar dados – realizar o registro dos dados de todos os pacientes
+
+Identificador	2.0
+Nome	Registar dados
+Atores	Paciente
+Sumário	Tem como controle registra dos os dados dos clientes
+Complexidade	Alta
+Regras de Negócio	Com os dados registrados dos pacientes, temos como objeto manter os controles dos dados
+Pré-condições	Registrar dados
+Pós-condição	Excluir e incluir dados cadastrais
+Pontos de Inclusão	Abrir a sessão do sistema.
+Pontos de Extensão	Realizar o fechamento do sistema 
+Consultar carteira de vacina –realiza as consultas das vacinas dos pacientes
+
+Identificador	3.0
+Nome	Consultar Carteira de vacina
+Atores	Paciente
+Sumário	Apresentar todas as vacinas de cada paciente
+Complexidade	Alta
+Regras de Negócio	Mostrar o controle das vacinas de cada paciente
+Pré-condições	Consultar Vacina
+Pós-condição	Exibir histórico dos Pacientes. 
+Pontos de Inclusão	Consultar a sessão do sistema.
+Pontos de Extensão	Realizar o fechamento do sistema 
+
+
+Registar vacina – realizar o registro das vacinas de todos os pacientes
+
+Identificador	4.0
+Nome	Registar vacina
+Atores	Funcionário
+Sumário	O funcionário realizar o registro das vacinas
+Complexidade	Alta
+Regras de Negócio	O funcionário realizar os registros das vacinas que os pacientes tomam.
+Pré-condições	Registrar vacina
+Pós-condição	Exibir os registros das vacinas
+Pontos de Inclusão	Abrir a sessão do sistema.
+Pontos de Extensão	Realizar o fechamento do sistema 
+Agendar vacina –  agendamento de vacina
+
+Identificador	5.0
+Nome	Agendar vacina
+Atores	Paciente e funcionário
+Sumário	Funcionário e paciente podem realizar o agendamento das vacinas
+Complexidade	Media
+Regras de Negócio	Facilitar e mandar as organizações dos agendamentos das vacinas.
+Pré-condições	Agendar vacina
+Pós-condição	Organizar e facilitar o agendamento
+Pontos de Inclusão	Abrir a sessão do sistema.
+Pontos de Extensão	Realizar o fechamento do sistema 
+
+Consultar postos de saúde –  o sistema apresenta dos os postos de saúde. 
+
+Identificador	6.0
+Nome	Consultar postos de saúde
+Atores	Paciente e funcionário e Médico
+Sumário	O sistema apresentar todos os postos de saúde
+Complexidade	Media
+Regras de Negócio	Apresenta os postos de saúde e suas localidades 
+Pré-condições	Localidade dos postos
+Pós-condição	Apresenta as localizações dos postos de saúda mais próximos. 
+Pontos de Inclusão	Abrir a sessão do sistema.
+Pontos de Extensão	Realizar o fechamento do sistema 
+Funcionário –  tem acesso para incluir os dados das vacinas 
+
+Identificador	7.0
+Nome	Funcionário 
+Atores	Funcionário
+Sumário	Tem acesso para incluir os dados das vacinas
+Complexidade	Media
+Regras de Negócio	Após o paciente ter tomado a vacina o funcionário realiza o registro no sistema.  
+Pré-condições	Realizar os registros
+Pós-condição	Mandar os controles das vacinas. 
+Pontos de Inclusão	Abrir a sessão do sistema.
+Pontos de Extensão	Realizar o fechamento do sistema 
+
+Medico –  Pode ter acesso as consultas das vacinas dos pacientes e dos postos de saúde. 
+
+Identificador	8.0
+Nome	Médico 
+Atores	Médico
+Sumário	Medico pode ter aceso os dados das vacinas dos pacientes.
+Complexidade	Media
+Regras de Negócio	Ampliar e facilitar o trabalho do médico.  
+Pré-condições	Apresentar dados das vacinas para medico
+Pós-condição	Ajudar e facilitar o dia a dia. 
+Pontos de Inclusão	Abrir a sessão do sistema.
+Pontos de Extensão	Realizar o fechamento do sistema 
+
+
 
 **Instruções do professor**: As tabelas acima mostram um exemplo de especificação de **um único caso de uso**. Lembre-se de especificar cada um dos casos de uso.
 
