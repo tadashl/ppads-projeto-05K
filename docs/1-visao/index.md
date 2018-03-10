@@ -54,7 +54,7 @@ esperadas do sistema.
 
 ### Protótipos para funcionalidade 1
 
-![](prototype.png)
+![](prototype.PNG)
 
 
 
