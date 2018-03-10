@@ -67,7 +67,7 @@ Paciente – Realiza o seu cadastro no sistema controle de vacino. Ele pode alte
 |Agendar vacina |–  agendamento de vacina|
 
 
-|Identificador	|5.0|
+|Identificador	|5.0            |
 |---|---|
 |Nome	|Agendar vacina|
 |Atores	|Paciente e funcionário|
@@ -81,7 +81,7 @@ Paciente – Realiza o seu cadastro no sistema controle de vacino. Ele pode alte
 |Consultar postos de saúde |–  o sistema apresenta dos os postos de saúde.| 
 
 
-|Identificador	|6.0      |
+|Identificador	|6.0            |
 |---|---|
 |Nome	|Consultar postos de saúde|
 |Atores	|Paciente e funcionário e Médico|
@@ -95,7 +95,7 @@ Paciente – Realiza o seu cadastro no sistema controle de vacino. Ele pode alte
 |Funcionário |–  tem acesso para incluir os dados das vacinas| 
 
 
-|Identificador	|7.0             |
+|Identificador	|7.0            |
 |---|---|
 |Nome	|Funcionário |
 |Atores	|Funcionário|
@@ -111,15 +111,15 @@ Paciente – Realiza o seu cadastro no sistema controle de vacino. Ele pode alte
 
 |Identificador	|8.0              |
 |---|---|
-|Nome|	Médico |
-|Atores|	Médico|
-|Sumário|	Medico pode ter aceso os dados das vacinas dos pacientes.|
-|Complexidade	|Media|
-|Regras de Negócio	|Ampliar e facilitar o trabalho do médico. |
-|Pré-condições	|Apresentar dados das vacinas para medico|
-|Pós-condição	|Ajudar e facilitar o dia a dia. |
-|Pontos de Inclusão	|Abrir a sessão do sistema.|
-|Pontos de Extensão	|Realizar o fechamento do sistema| 
+|Nome|Médico |
+|Atores|Médico|
+|Sumário|Medico pode ter aceso os dados das vacinas dos pacientes.|
+|Complexidade|Media|
+|Regras de Negócio|Ampliar e facilitar o trabalho do médico. |
+|Pré-condições|Apresentar dados das vacinas para medico|
+|Pós-condição|Ajudar e facilitar o dia a dia. |
+|Pontos de Inclusão|Abrir a sessão do sistema.|
+|Pontos de Extensão|Realizar o fechamento do sistema| 
 
 
 
