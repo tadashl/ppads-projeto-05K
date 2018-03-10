@@ -50,18 +50,11 @@ esperadas do sistema.
 - localidades sem rede
 
 
-## Protótipos de tela
+## Protótipo de tela
 
 ### Protótipos para funcionalidade 1
 
-![](proto1.png)
+![](prototype.png)
 
-Fonte: Exemplos gerados pelo assistente do **Enterprise Architect**.
 
-### Protótipos para funcionalidade 2
 
-![](proto2.png)
-
-Fonte: Exemplos gerados pelo assistente do **Enterprise Architect**.
-
-### Protótipos para funcionalidade N
