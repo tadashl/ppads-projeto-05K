@@ -57,4 +57,9 @@ esperadas do sistema.
 ![](prototype.PNG)
 
 
+### Protótipos para funcionalidade 2
+
+![](prototype2.PNG)
+
+
 
