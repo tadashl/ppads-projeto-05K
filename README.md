@@ -7,5 +7,5 @@
 * Gustavo Tadashi Uema 
 * Allyson de Jesus Alvarenga
 * João Marcos Pereira dos Santos
-* Willian Kazuo Okamoto
+* Willian Kazuo Okamoto .
 
