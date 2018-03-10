@@ -11,9 +11,9 @@ Especificação dos Casos de Uso.
 
 Paciente – Realiza o seu cadastro no sistema controle de vacino. Ele pode altera excluir dados e consultar as vacinas. 
 
-Identificador	1.0 
+||Identificador||	1.0 ||
 
-Nome	Paciente
+||Nome	||Paciente||
 
 Atores	Paciente
 
