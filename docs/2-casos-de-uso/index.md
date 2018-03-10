@@ -39,7 +39,7 @@ Paciente – Realiza o seu cadastro no sistema controle de vacino. Ele pode alte
 |Consultar carteira de vacina| –realiza as consultas das vacinas dos pacientes|
 
 
-|Identificador	3.0|
+|Identificador|	3.0|
 |---|---|
 |Nome	|Consultar Carteira de vacina|
 |Atores|	Paciente|
