@@ -11,27 +11,18 @@ Especificação dos Casos de Uso.
 
 Paciente – Realiza o seu cadastro no sistema controle de vacino. Ele pode altera excluir dados e consultar as vacinas. 
 
-||Identificador||	1.0 ||
-
-||Nome	||Paciente||
-
-Atores	Paciente
-
-Sumário	Paciente – Realiza o seu cadastro no sistema controle de vacino
-
-Complexidade	Alta
-
-Regras de Negócio	O paciente tem como base o controle das suas vacinas. 
-
-Pré-condições	Consultar vacina 
-
-Pós-condição	Manter a controle dos pacientes
-
-Pontos de Inclusão	Abrir a sessão do sistema.
-
-Pontos de Extensão	Realizar o fechamento do sistema 
-
-Registar dados – realizar o registro dos dados de todos os pacientes
+|Identificador|	1.0          |
+|---|---|
+|Nome	|Paciente|
+|Atores	|Paciente|
+|Sumário	Paciente – Realiza o seu cadastro no sistema controle de vacino|
+|Complexidade|	Alta|
+|Regras de Negócio|	O paciente tem como base o controle das suas vacinas.| 
+|Pré-condições	|Consultar vacina |
+|Pós-condição	|Manter a controle dos pacientes|
+|Pontos de Inclusão	|Abrir a sessão do sistema.|
+|Pontos de Extensão	|Realizar o fechamento do sistema| 
+|Registar dados – realizar o registro dos dados de todos os pacientes|
 
 
 Identificador	2.0
