@@ -47,9 +47,9 @@ esperadas do sistema.
 
 ## Restrições do projeto
 
-- versão ultrapassada Android
-- versão ultrapassada IOS
-- localidades sem rede
+- versão ultrapassada Android.
+- versão ultrapassada IOS.
+- funciona apenas em locais com rede.
 
 
 ## Protótipo de tela
