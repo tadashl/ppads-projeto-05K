@@ -25,7 +25,7 @@ esperadas do sistema.
 ## Integração com outros sistemas
 
 - Google maps location
-- integração com base de dados dos postos de saúde e os hospitais.
+- integração com base de dados.
 
  
 ## Interessados
