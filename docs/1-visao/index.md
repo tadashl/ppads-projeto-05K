@@ -41,7 +41,9 @@ esperadas do sistema.
 
 ## Funcionalidades do produto
 
-- Facilidade em consulta e acesso com controle de vacina, disponibilidade e localização.
+- Facilidade em consulta e acesso com controle de vacina
+- Verificar disponibilidade de vacinas.
+- Verificar localização de postos.
 
 ## Restrições do projeto
 
