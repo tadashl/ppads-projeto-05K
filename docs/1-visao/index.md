@@ -41,7 +41,7 @@ esperadas do sistema.
 
 ## Funcionalidades do produto
 
-- Facilidade em consulta e acesso com controle de vacina
+- Facilidade em consultar a  carteira de vacina.
 - Verificar disponibilidade de vacinas.
 - Verificar localização de postos.
 
