@@ -56,12 +56,12 @@ esperadas do sistema.
 
 ### Protótipos para funcionalidade 1
 
-![](prototype.PNG)
+![](prototype.png)
 
 
 ### Protótipos para funcionalidade 2
 
-![](prototype2.PNG)
+![](prototype2.png)
 
 
 
