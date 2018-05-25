@@ -6,133 +6,95 @@ Para cada caso de uso, elabore um **procedimento de teste** para testar o cenár
 
 **Preparação:**
 
-* Logar no sistema como Administrador.
+* Logar no sistema como Atendente.
 
 **Procedimento de teste:**
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Clicar no link **Faculdades -  Restaurantes - Prédios** | Apresentação da tela com lista de Faculdade, Restaurante e Prédios |
-| 2 | Acessar **Área do administrador** | Apresentação da tela de login do sistema |
-| 3 | Preencher os campos **login** e **password** com os dados do **Admin**  | Apresentação do painel do Administrador |
+| 1 | Clicar no link **Login** | Apresentação da tela |
+| 2 | Acessar **Área do Atendente** | Apresentação da tela de login do sistema |
+| 3 | Preencher os campos **login** e **password** com os dados do **Atendente**  | Apresentação do painel do Atendente |
 
 
 
-**Nome do caso de uso:** Incluir Estabelecimento 
+**Nome do caso de uso:** Incluir Paciente
 
 **Preparação:**
 
-* Incluir um novo Prédio na lista  de Prédios.
+* Incluir um novo Paciente.
 
 **Procedimento de teste:**
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Acessar **Área do administrador** | Apresentação da tela de login do sistema |
-| 2 | Clicar no link **Incluir** | Apresentação da lista com as categorias |
-| 3 | Selecionar a categoria **Prédio**  | Apresentação da tela com formulário para cadastro |
-| 4 | Preencher formulário com as informações do Prédio | |
-| 5 | Clicar no link **Incluir** | Apresentar tela confirmando a operação e redirecionar para a página do Administrador |
+| 1 | Acessar **Área do Atendente** | Apresentação da tela de login do sistema |
+| 2 | Clicar no link **Add Paciente** | Apresentação do Formulario de Cadastro |
+| 3 | Preencher formulário com as informações do Paciente | |
+| 4 | Clicar no link **Incluir** | Apresentar tela confirmando a operação e redirecionar para a página do Atendente |
 
 
 
-**Nome do caso de uso:** Editar Estabelecimento 
+**Nome do caso de uso:** Registrar Vacinas 
 
 **Preparação:**
 
-* Editar as informações da Faculdade.
+* Editar as informações das Vacinas Disponivel.
 
 **Procedimento de teste:**
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Acessar **Área do administrador** | Apresentação da tela de login do sistema |
-| 2 | Clicar no link **Editar** | Apresentação da lista com as categorias |
-| 3 | Selecionar a categoria **Faculdade**  | Apresentação da tela com a lista de Faculdades cadastradas|
-| 4 | Clicar no link **FCI** | Apresentação da tela com os campos já preenchidos com as informações da Faculdade |
-| 5 | Alterar o campo com o **Número do Prédio** |  |
-| 6 | Clicar no link **Alterar** | Apresentação da página com a confirmação da operação e redirecionar para a área do administrador |
+| 1 | Acessar **Área do Atendente** | Apresentação da tela de login do sistema |
+| 2 | Clicar no link **Registrar Vacinas** | Apresentação da lista com as vacinas pré-cadastradas |
+| 3 | Selecionar a categoria **Clinica**  | Apresentação da tela com a lista de Clinicas |
+| 4 | Clicar no link **Consultar Vacinas** | Apresentação da tela com os campos já preenchidos com as informações das Vacinas|
+| 5 | Clicar no link **Registrar** | Apresentação da página com a confirmação da operação e redirecionar para a área do Atendente |
 
 
 
-**Nome do caso de uso:** Excluir Estabelecimento 
+**Nome do caso de uso:** Consultar Carteira de Vacinas
 
 **Preparação:**
 
-* Excluir uma Prédio.
+* Consultar Carteira de Vacinas.
 
 **Procedimento de teste:**
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Acessar **Área do administrador** | Apresentação da tela de login do sistema |
-| 2 | Clicar no link **Excluir** | Apresentação da lista com as categorias |
-| 3 | Selecionar a categoria **Prédios**  | Apresentação da tela com a lista de Prédios cadastrados|
-| 4 | Clicar no link **Auditório Ruy Barbosa** | Apresentação da página com a confirmação da operação e redirecionar para a área do administrador|
+| 1 | Acessar **Área do Paciente** | Apresentação da tela de login do sistema |
+| 2 | Clicar no link **Consultar Carteira** | Apresentação da lista com as Vacinas já Aplicadas |
+| 3 | Clicar no link **Visualizar Vacina** | Apresentação da página com as informações da vacina selecionada|
 
 
 
-**Nome do caso de uso:** Consultar Prédios 
+**Nome do caso de uso:** Consultar Clinicas (Posto de Saude)
 
 **Preparação:**
 
-* Consultar um Prédio na lista de Prédios.
+* Consultar Clinicas (Posto de Saude).
 
 **Procedimento de teste:**
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Clicar no link **Faculdades -  Restaurantes - Prédios** | Apresentação da tela com lista de Faculdade, Restaurante e Prédios |
-| 2 | Clicar no link **Prédios**  | Apresentação da lista de Prédios cadastrados|
-| 3 | Clicar no link **31- Edifício Paulo Breda Filho** | Apresentação da página com as informações do Prédio 31 - Edifício Paulo Breda Filho|
+| 1 | Clicar no link **Vacinas/Clinicas** | Apresentação da tela com lista de Vacinas e Clinicas|
+| 2 | Clicar no link **Clinica Tatuapé** | Apresentação da página com as informações das vacinas disponivel em tatuapé|
 
 
 
-**Nome do caso de uso:** Consultar Faculdades 
+**Nome do caso de uso:** Agendar Vacinas
 
 **Preparação:**
 
-* Consultar uma Faculdade na lista de Faculdades.
+* Agendar Vacinas.
 
 **Procedimento de teste:**
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Clicar no link **Faculdades -  Restaurantes - Prédios** | Apresentação da tela com lista de Faculdades|
-| 2 | Clicar no link **Prédios**  | Apresentação da lista de Prédios cadastrados|
-| 3 | Clicar no link **EE- Escola de Engenharia** | Apresentação da página com as informações da Escola de Engenharia|
+| 1 | Clicar no link **Agendar Vacina** | Apresentação da tela com Formulario para Preenchimento|
+| 2 | Clicar no link **Vacina** | Apresentação da página com as informações do Agendamento|
 
-
-
-**Nome do caso de uso:** Consultar Restaurantes 
-
-**Preparação:**
-
-* Consultar um Restaurante na lista de Restaurantes.
-
-**Procedimento de teste:**
-
-| Passo | Procedimento | Resultado esperado |
-| --- | --- | --- |
-| 1 | Clicar no link **Faculdades -  Restaurantes - Prédios** | Apresentação da tela com lista de Faculdade, Restaurante e Prédios |
-| 2 | Clicar no link **Restaurantes**  | Apresentação da lista de Prédios cadastrados|
-| 3 | Clicar no link **Starbucks Coffee** | Apresentação da página com as informações do Restaurante Starbucks Coffee|
-
-
-
-**Nome do caso de uso:** Reportar Erro 
-
-**Preparação:**
-
-* Reportar um erro na págino da Faculdade.
-
-**Procedimento de teste:**
-
-| Passo | Procedimento | Resultado esperado |
-| --- | --- | --- |
-| 1 | Clicar no link **Faculdades -  Restaurantes - Prédios** | Apresentação da tela com lista de Faculdades |
-| 2 | Clicar no link **FCI - Faculdade de Computação e Informática** | Apresentação da página com as informações da Faculdade de Computação e Informática|
-| 3 | Clicar no link **Sugerir alteração** | Apresentação da tela com informações da Faculdade de Computação e Informática e campo para sugerir alteração |
-| 4 | Sugerir uma alteração | |
-| 5 | Clicar no link **Enviar** | Apresentação da tela confirmando o envio da sugestão e redirecionar para a página da Faculdade de Computação e Informática |
  
