@@ -1,6 +1,6 @@
 # Detalhamento dos componentes
 
 
-![](Fluxo.pdf)
+![](Fluxo.png)
 
 
